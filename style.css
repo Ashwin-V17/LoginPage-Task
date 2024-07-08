@@ -88,7 +88,7 @@ body {
   font-weight: 100;
 }
 .login-form input:focus,
-.login-form input:not(:placeholder-shown) {
+.login-form input[type="name"]:not(:placeholder-shown) {
   border-color: #ff8520;
   font-size: 1.2rem;
   color: #fff;
