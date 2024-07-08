@@ -5,13 +5,16 @@ document.querySelector(".login-form").addEventListener("submit", async (e) => {
   const password = document.getElementById("login-password").value;
 
   try {
-    const response = await fetch("http://localhost:3000/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ username, password }),
-    });
+    const response = await fetch(
+      "https://your-backend-url.onrender.com/login",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, password }),
+      }
+    );
 
     const data = await response.json();
 
