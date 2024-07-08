@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* https://analytics.voiztrail.com/themes/voiztrail/assets/images/logo-375-89.png */
+  font-family: "Open Sans";
+}
+body {
+  max-width: 100vh;
+}
+#particles-js {
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url("https://analytics.voiztrail.com/themes/voiztrail/assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  /* flex-direction: column; */
+  position: relative;
+}
+/* LoginDemo.css */
+.login-form {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 25rem;
+  min-width: 29vw;
+  max-height: 45vw;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.login-form .logo-wrapper {
+  background-color: rgba(255, 255, 255, 0.74);
+  margin-bottom: 6%;
+  max-height: 20%;
+  width: 100%;
+  padding: 0 16px;
+}
+.login-form .logo-wrapper img {
+  width: 100%;
+  vertical-align: middle;
+}
+.login-form .form-contents {
+  min-width: 84%;
+}
+
+.login-form .form-contents h4 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.logo-header {
+  min-width: 84%;
+  max-height: 5vh;
+  /* background-color: #fff; */
+  padding: 0 1%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border-bottom: 1px solid #bbb;
+  color: #fff;
+  margin: 3% 0;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  min-width: 100%;
+  color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  background-color: rgba(57, 57, 57, 0.4);
+  outline: none;
+}
+
+.login-form input::placeholder {
+  color: #bbb;
+  font-size: 1.2rem;
+  /* outline: none; */
+}
+.login-form input:placeholder-shown {
+  font-weight: 100;
+}
+.login-form input:focus {
+  border-color: #ff8520;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.input-group {
+  border-bottom: 1px solid #bbb;
+}
+.login-form input[type="password"] {
+  margin-bottom: 2rem;
+}
+
+.login-form .secure-div {
+  display: flex;
+  margin: 1rem 0 2rem 0;
+  min-width: 84%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login-form .secure-div h4 {
+  font-size: 0.84rem;
+  color: #fff;
+  font-weight: lighter;
+}
+.login-form button {
+  padding: 5px;
+  min-width: 10vw;
+  max-height: 5vh;
+  font-size: 0.9rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #8b9aa3;
+}
+
+.login-form .company-anchor a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  transition: 0.5s ease;
+}
+
+.login-form .company-anchor a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.login-form .company-anchor {
+  margin-bottom: 3rem;
+}
