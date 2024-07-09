@@ -5,6 +5,7 @@ document.querySelector(".login-form").addEventListener("submit", async (e) => {
   const password = document.getElementById("login-password").value;
   // https://login-page-backend-nine.vercel.app/
   try {
+    console.log(username, password);
     const response = await fetch(
       "https://login-page-backend-jmcgofsve-ashwin-vs-projects.vercel.app/login",
       {
